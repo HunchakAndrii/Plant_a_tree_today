@@ -1,0 +1,314 @@
+:root {
+  --primary: #418A1C;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img, svg {
+  max-width: 100%;
+}
+
+button, input {
+  font-family: inherit;
+}
+
+button {
+  border: none;
+}
+/* ...................................................................... */
+
+body {
+  font-family: 'Raleway';
+}
+
+.title-h1 {
+  font-size: 80px;
+  line-height: 1;
+  font-weight: 800;
+}
+
+.title-h2 {
+  font-weight: 800;
+  font-size: 57px;
+  line-height: 1.4;
+}
+
+.text-p1 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 160%;
+  color: #081800;
+  opacity: 0.6;
+}
+
+
+.btn-main {
+  display: inline-block;
+  padding: 20px 30px;
+  background-color: #081800;
+  color: white;
+  box-shadow: 4px 4px #418A1C;
+  transition: .4s linear;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.btn-main:hover {
+  box-shadow: 8px 8px #418A1C;
+}
+
+
+/*  Header внизу ) */
+
+.header {
+  margin: 40px auto;
+  max-width: 1080px;
+  margin-top: 100px;
+  display: flex;
+  gap: 80px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__menu{
+  margin-left: auto;
+  display: flex;
+  gap: 45px;
+}
+
+.header__link {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 130%;
+  color: #101C02;
+  opacity: 0.5;
+}
+
+.header__link:hover {
+   color: #418A1C;
+}
+
+.sub__header {
+  display: flex;
+  max-width: 1342px;
+
+
+}
+
+.big__picture {
+  margin-left: 53px;
+  position: relative;
+
+}
+
+
+.picture__sector {
+  background-color: #F7FFEC;
+}
+
+.sub__header__content {
+  margin-left: 40px;
+}
+
+.sub__title {
+  max-width: 715px;
+  font-weight: 800;
+  font-size: 60px;
+  line-height: 78px;
+  color: #081800;
+}
+
+span {
+  font-size: 80px;
+  line-height: 104px;
+  color: #418A1C;
+}
+
+.sub__text {
+  max-width: 528px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 29px;
+    opacity: 60%;
+}
+
+
+
+
+.block1 h2 {
+  color: #418A1C;
+  font-weight: 700;
+  font-size: 43px;
+}
+.block2 h2 {
+  color: #418A1C;
+  font-weight: 700;
+  font-size: 43px;
+}
+
+.block1 p {
+  opacity: 70%;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 29px;
+}
+
+.block2 p {
+  opacity: 70%;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 29px;
+}
+
+
+
+/* Main */
+
+.main__content {
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+.first__block {
+  display: flex;
+  max-height: 577px;
+  margin-top: 140px;
+}
+
+.first__block__left {
+  margin: 0px 60px 0px 0px;
+}
+
+.first__block__title {
+  font-size: 57px;
+  font-weight: 800;
+  line-height: 80px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #081800;
+  margin-bottom: 60px;
+}
+
+.img__1 {
+  padding: 60px 45px 40px 50px;
+  background-color: #F7FFEC;
+}
+
+.img__2 {
+  background-color: #F7FFEC;
+  padding: 9px 26px;
+}
+
+.first__block_text {
+  color: #081800;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 160%;
+  opacity: 0.6;
+  margin: 50px 0px 30px 0px;
+}
+
+.second__block {
+  display: flex;
+  gap: 60px;
+  margin-top: 120px;
+}
+
+.second__block__right {
+
+}
+
+.img__3 {
+  padding: 30px 60px;
+  background-color: #F7FFEC;
+}
+
+ul {
+  list-style: none;
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+li {
+  color: #081800;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 160%;
+  opacity: 0.6;
+  max-width: 400px;
+  position: relative;
+  padding-left: 60px;
+}
+
+li::before {
+  content: '';
+  display: block;
+  width: 40px;
+  height: 40px;
+  background-color: #418A1C;
+  position: absolute;
+  top: 50%;
+  left: 0px;
+  /* transform: translateY(-50%); */
+  background-image: url(/img/icon/checkmark.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+}
+
+
+.second__block__title {
+  color: #081800;
+  font-size: 57px;
+  font-weight: 800;
+  line-height: 140%;
+}
+
+.img__4 {
+  padding: 32px 64px;
+  background-color: #F7FFEC;
+}
+
+.third__block {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 130px;
+}
+
+.third__block__title {
+    font-size: 57px;
+    font-weight: 800;
+    line-height: 80px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #081800;
+    margin-bottom: 60px;
+    max-width: 350px;
+}
+
+.img__6 {
+  padding: 50px 74px;
+  background-color: #F7FFEC;
+}
+
+.img__7 {
+  padding: 40px 55px;
+  background-color: #F7FFEC;
+}
+
+.third__block__text {
+  margin-top: 40px;
+  color: #081800;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 160%;
+  opacity: 0.6;
+  max-width: 525px;
+}
